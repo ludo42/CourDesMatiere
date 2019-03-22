@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-image: url('./img/cle.jpeg');
+  background-size: contain;
+}
+
+ul {
+  color: black;
+  text-align: left;
+}
+
+h1 {
+  color: #8bdfa3;
+  margin-top: 2em;
+  font-size: 40px;
+  text-shadow: -1px 0  darkgrey, 0 1px  darkgrey,
+      1px 0  darkgrey, 0 -1px  darkgrey;
+}
+
+.first {
+  margin-top: 2em;
+}
+
+main {
+  background-color: #8bdfa3;
+  border: darkgrey 1px solid;
+  border-radius: 30px;
+  padding: 0.5em 2em 2em 2em;
+  margin: 6em 10em 2em 10em ;
+  box-shadow: 10px 10px lightgrey;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#button {
+  border: darkgrey 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 1em;
+  box-shadow: 5px 5px lightgrey;
+  background-color: #8bdfa3;
+  color: black;
+}
+#button1 {
+  margin-left: em;
+  background-color: #8bdfa3;
+  color: black;
+  border: darkgrey 1px solid;
+  border-radius: 5px;
+  box-shadow: 3px 5px lightgrey;
+  padding: 6px;
+  margin-top: 1em;
+
+}
+#go {
+  background-color: #8bdfa3;
+  color: black;
+  border: darkgrey 1px solid;
+  border-radius: 5px;
+  padding: 11px;
+  margin-left: 5px;
+}
+
+textarea{
+  width: 550px;
+  height: 500px;
+  padding: 8px;
+  background-color: #8bdfa3;
+  color: black;
+
+
+
+}
+.redimensionnable {
+
+  border: darkgrey 1px solid;
+  border-radius: 15px;
+  box-shadow: 5px 10px lightgrey;
+
+}
+
+.valid {
+  margin: 1em;
+
+}
+input {
+  margin-top: 5em;
+  padding: 7px;
+}
+#video {
+  text-align: center;
+  width:480px;
+  margin-left:auto;
+  margin-right:auto;
+}

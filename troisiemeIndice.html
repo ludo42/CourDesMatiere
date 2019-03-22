@@ -1,0 +1,72 @@
+<!DOCTYPE html">
+
+
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Troisieme Indice</title>
+  <link href="main.css" rel="stylesheet" />
+</head>
+<h1>Code n°3:</h1>
+<textarea class="redimensionnable" cols="100" rows="70" readonly>
+<script>
+
+  var equipes = false,
+    joueurs = false,
+    football = false,
+    ballon = false,
+    x = window.innerWidth/2-130/2,
+    y = window.innerHeight/2-130/2
+document.addEventListener('keydown',press)
+
+function Indice() {
+  if (e.keyCode === 38 /* up */ || e.keyCode === 87 /* w */ || e.keyCode === 90 /* z */){
+    equipes = false
+  }
+  if (e.keyCode === 39 /* right */ || e.keyCode === 68 /* d */){
+    joueurs = false
+  }
+  if (e.keyCode === 40 /* down */ || e.keyCode === 83 /* s */){
+    football = true
+  }
+  if (e.keyCode === 37 /* left */ || e.keyCode === 65 /* a */ || e.keyCode === 81 /* q */){
+    ballon = false
+  }
+}
+
+function gameLoop(){
+  var div = document.querySelector('div')
+  if (up){
+    y = y - 10
+  }
+  if (right){
+    x = x + 10
+  }
+  if (down){
+    y = y + 10
+  }
+  if (left){
+    x = x - 10
+  }
+  div.style.left = x+'px'
+  div.style.top = y+'px'
+  window.requestAnimationFrame(gameLoop)
+}
+window.requestAnimationFrame(gameLoop)
+
+console.Indice(=true);
+
+</script>
+
+</textarea>
+
+<body>
+  <div>
+    <button id="button1" type="button" name="button" onclick="window.location.href='file:///home/bouix/Documents/dta/html/projetEnigme/deuxiemeIndice.html'">Précédent</button>
+    <button id="button1" type="button" name="button" onclick="window.location.href='file:///home/bouix/Documents/dta/html/projetEnigme/quatriemeIndice.html'">Suivant</button>
+  </div>
+</body>
+
+
+</html>
